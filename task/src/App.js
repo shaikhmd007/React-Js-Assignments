@@ -2,8 +2,6 @@
 // ## Task:
 // - Create a react application and in the HTML, create a basic about me page. No need of any fancy CSS for now. Just the html basic is okay.
 
-
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
