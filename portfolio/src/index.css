@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+:root{
+  --light:#028090;
+  --dark:#235c81;
+  --green:#04724d;
+  font-family: 'Vollkorn', serif;
+}
+body,h2,h3,h4,h5{
+  background-color: var(--light);
+}
