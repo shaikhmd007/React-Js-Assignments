@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  flex-wrap: wrap;
+
+}
+
+.App-header {
+  z-index: 100;
+  /* position: sticky;/ */
+  position: fixed;
+  top: 0;
+  /* height: 10%; */
+  width: 26.5rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  /* color: #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: end; */
+
+  /* border: 2px solid black; */
+}
+
+.body-container {
+  /* position: sticky; */
+  margin: 70px 0px;
+  /* border: 2px solid black; */
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  /* display: inline-block;
+  align-items:stretch; */
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #CCCCCC;
+  color: black;
+  transition: 500ms;
+}
+
+button {
+  border: none;
+  background-color: #d63267;
+  color: white;
+  border-radius: 5px;
+  font-size: small;
+  padding: 0.2rem;
+  /* margin: 0; */
+}
+
+.body-container h2 {
+  color: #d63267;
+}
+
+/* Swith Toggle Theme code*/
+.LightTheme {
+  background-color: #fff;
+  color: black;
+  transition: 0.4s;
+}
+
+.DarkTheme {
+  background-color: #000;
+  color: #fff;
+  transition: 0.4s;
+}
